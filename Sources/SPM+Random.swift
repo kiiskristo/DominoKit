@@ -8,7 +8,7 @@
  See http://swift.org/CONTRIBUTORS.txt for Swift project authors
 */
 
-#if os(OSX)
+#if os(macOS) || os(iOS)
     import Darwin
 
     public let random: (Int) -> Int = {
